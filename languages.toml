@@ -1,0 +1,33 @@
+[[language]]
+name = "rust"
+auto-format = true
+
+[language.debugger]
+command = "codelldb"
+name = "codelldb"
+port-arg = "--port {}"
+transport = "tcp"
+
+[[language.debugger.templates]]
+name = "binary"
+request = "launch"
+[[language.debugger.templates.completion]]
+completion = "filename"
+name = "binary"
+
+[language.debugger.templates.args]
+program = "{0}"
+runInTerminal = true
+
+
+[[language]]
+name = "go"
+scope = "source.go"
+injection-regex = "go"
+file-types = ["go"]
+roots = ["Gopkg.toml", "go.mod"]
+auto-format = true
+comment-token = "//"
+language-server = { command = "gopls" }
+# TODO: gopls needs utf-8 offsets?
+indent = { tab-width = 4, unit = "\t" }
