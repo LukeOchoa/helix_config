@@ -1,4 +1,28 @@
-theme = "ayu_dark"
+#theme = "ayu_dark"
+#theme = "autumn_night" This is the best buf i cant see the functions LOL; Augment this in the future
+#theme = "ayu_evolve" # I cant see better than ayu_dark, but not quite there; I need to change the funtions to red or something
+#theme = "base16_terminal" # practically this is the best but its not pretty; I can Acutally SEE THE FUNCTIONS AND VARIABLES as a different lol
+#theme = "dark_high_contrast" # yeah its good, does what it says; but its kinda hard on the eyes?
+#theme = "dark_plus" # pretty deec?
+#theme = "doom_acario_dark" # its decent and dark but in not the greatest fan?
+
+
+#LIGHT MODES 
+#theme = "flatwhite" # This is awesome for a light profile in like the sun
+
+
+# Normals
+
+#theme = "heisenberg" # Yes this is almost the best winner! its a little hard on the eyes
+
+#theme = "hex_lavender" # Yes thats quite good. Just like my lilacs
+
+#theme = "kanagawa" # Very readable; vars and funcs are different and func ars are diff
+theme = "ayu_dark_luke_says"
+
+
+#theme = "onedarker" # this is very readable! Acceptable Choice
+
 
 [editor]
 line-number = "relative"
